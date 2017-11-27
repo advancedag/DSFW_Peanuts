@@ -1,4 +1,3 @@
-setwd("C:/data/research/peanutHarvest")
 rm(list = ls())
 
 library(tidyverse)

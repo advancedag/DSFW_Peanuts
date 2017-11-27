@@ -1,5 +1,4 @@
 # DSFW_Peanuts
-Analysis of peanut DSFW from USDA-NASS databases.
 
 This repository contains an R script (peanuts.R) for downloading, analyzing, and vizualizing Days Suitable for Field Work (DSFW) in 11 peanut producing states.  This script connects directly to source databases via API connection and requires no local data files.  
 

@@ -301,5 +301,3 @@ c$set_num_colors(4)
 c$set_zoom(continental_us_states)
 c$show_labels = FALSE
 without_abbr = c$render()
-
-without_abbr

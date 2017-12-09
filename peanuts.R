@@ -6,7 +6,18 @@ library(jsonlite)
 library(plyr)
 library(tmap)
 
-api.key <- '53D17844-D92E-3CF5-8520-6E1E45CA2A49'
+######
+
+# Enter Quickstats API key here inside the single quotes. Link below to register and more info.
+# https://quickstats.nass.usda.gov/api
+
+api.key <- '00000000-0000-0000-0000-000000000000'
+
+######
+
+# Building API request from USDA-NASS Quickstats.
+# Requesting Agricultural Survey data at the state level for peanuts by year, specifically 2015 and later peanut acres harvested. 
+
 api.url4acres <- paste(
   'http://quickstats.nass.usda.gov/api/api_GET/?key=', api.key,
   '&source_desc=SURVEY',
@@ -16,13 +27,17 @@ api.url4acres <- paste(
   '&year__GE=2015',
   '&short_desc=PEANUTS - ACRES HARVESTED',
   sep=''
-)
+  )
+
+# API Get using url4acres request parameters
 api.return4acres <- GET(api.url4acres)
 
+# Convert from JSON to text
 peanutHarvest <-
   fromJSON(content(api.return4acres, 'text'))$data 
 peanutHarvest
 
+# Cleaning up the data table
 dat<-subset(peanutHarvest, year==2016)
 dat$value<-as.numeric(gsub(",", "", dat$Value))
 dat$value<-as.numeric(dat$value)

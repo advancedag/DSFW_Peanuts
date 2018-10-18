@@ -20,9 +20,9 @@ Figure 2 is the weekly progress in completing planting and harvesting field oper
 Figure 3 is a histogram of the historical number of DSFW available for planting field work (Ex: [3histNorth CarolinaPlanting](../master/Figures/NorthCarolina/3hist4NORTH%20CAROLINAPlanting.png
 )).
 
-Figure 4 is a histogram of the historical number of DSFW available for harvesting field work (Ex: [4histNorth CarolinaHarvest](/master/Figures/NorthCarolina/4hist4NORTH%20CAROLINAharvest.png)).
+Figure 4 is a histogram of the historical number of DSFW available for harvesting field work (Ex: [4histNorth CarolinaHarvest](../master/Figures/NorthCarolina/4hist4NORTH%20CAROLINAharvest.png)).
 
-Figure 5 is plot of trend in is total DSFW over time (Ex: [5trendNorth Carolina](/master/Figures/NorthCarolina/5trendNORTH%20CAROLINA.png)).
+Figure 5 is plot of trend in is total DSFW over time (Ex: [5trendNorth Carolina](../master/Figures/NorthCarolina/5trendNORTH%20CAROLINA.png)).
 
 ## Authors
 This script was authored by Terry Griffin and his team at Kansas State University ([Meet Terry](https://www.ageconomics.k-state.edu/directory/faculty_directory/griffin/)) and was used to develop a publication co-authored by Jason Ward at NC State University ([Meet Jason](https://www.bae.ncsu.edu/people/jkward2/)).  

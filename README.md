@@ -4,6 +4,8 @@ This repository contains an R script (peanuts.R) for downloading, analyzing, and
 ## R Script Info
 R version 3.4.2 was used at time of development.
 
+There are two version of the R Script. The peanutsDSFW_2019.R was created in response to a change in the USDA-NASS Quickstats API and to add in additional data that was made available over time from the public data source since publishing the original code.
+
 ## Quickstats API Key
 Click the link below and follow steps to request USDA-NASS Quickstats API key.  Enter the key in the R script where indicated.
 
